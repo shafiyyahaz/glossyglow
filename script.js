@@ -1,10 +1,10 @@
 const products = [
- {name:"Crystal Gloss",type:"Lip Gloss",price:89000,desc:"Kilau bening yang manis untuk setiap momen.",img:"assets/lip-gloss.jpg",badge:"BEST SELLER"},
- {name:"Blooming Oil",type:"Lip Oil",price:109000,desc:"Sentuhan lembut bernuansa peach.",img:"assets/lip-oil.jpg",badge:"SOFT GLOW"},
- {name:"Sweet Tint",type:"Glossy Lip Tint",price:99000,desc:"Warna rosy yang membuat tampilan terasa segar.",img:"assets/lip-tint.jpg",badge:"LOVED"},
- {name:"Rosy Shine",type:"Lip Gloss",price:89000,desc:"Kilau pink romantis untuk sehari-hari.",img:"assets/lip-gloss.jpg",badge:"NEW"},
- {name:"Peach Glow",type:"Lip Oil",price:109000,desc:"Nuansa peach hangat untuk kesan fresh.",img:"assets/lip-oil.jpg",badge:"PEACHY"},
- {name:"Berry Kiss",type:"Glossy Lip Tint",price:99000,desc:"Berry rosy dengan sentuhan manis.",img:"assets/lip-tint.jpg",badge:"YOUR FAVE"}
+ {name:"Crystal Glow Lip Gloss",type:"Lip Gloss",price:88000,desc:"Kilau bening yang memantulkan pesona di setiap senyuman.",img:"assets/crystal-gloss.jpg",badge:"BEST SELLER"},
+ {name:"Rose Petal Lip Oil",type:"Lip Oil",price:78000,desc:"Sentuhan lembut bernuansa kelopak mawar untuk momen manismu.",img:"assets/rose-petal-oil.jpg",badge:"SOFT GLOW"},
+ {name:"Berry Bloom Tint",type:"Glossy Lip Tint",price:65000,desc:"Warna berry yang playful, dengan sentuhan glossy memikat.",img:"assets/berry-tint.jpg",badge:"LOVED"},
+ {name:"Peach Nectar Lip Oil",type:"Lip Oil",price:69000,desc:"Kilau peach yang terasa fresh, seperti sinar pagi.",img:"assets/peach-oil.jpg",badge:"PEACHY"},
+ {name:"Rosy Shine Gloss",type:"Lip Gloss",price:89000,desc:"Warna rosy manis untuk menemani setiap cerita indahmu.",img:"assets/rosy-shine.jpg",badge:"NEW"},
+ {name:"Cherry Charm Tint",type:"Glossy Lip Tint",price:65000,desc:"Sentuhan cherry yang berani, manis, dan penuh percaya diri.",img:"assets/cherry-tint.jpg",badge:"YOUR FAVE"}
 ];
 const money = n => "Rp " + n.toLocaleString("id-ID");
 const grid = document.getElementById("productGrid");
