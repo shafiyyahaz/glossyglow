@@ -6,3 +6,13 @@
 /* Distinct luxury product imagery */
 .product-photo img{object-fit:cover;object-position:center;}
 .category-card img{object-fit:cover;object-position:center;}
+
+/* GlossyGlow image clarity and anti-zoom refinements */
+.hero-art img{object-fit:contain;object-position:center;background:rgba(255,245,248,.35);padding:6px;mix-blend-mode:normal;}
+.product-photo{background:linear-gradient(145deg,#fff1f5,#f8dce5 55%,#fff8f6);display:flex;align-items:center;justify-content:center;padding:8px;}
+.product-photo img{width:100%;height:100%;object-fit:contain;object-position:center;padding:4px;transform:none!important;filter:contrast(1.025) saturate(1.04);}
+.product-card:hover .product-photo img{transform:none!important;}
+.category-card img{object-fit:contain;object-position:left center;padding:10px 40% 10px 8px;opacity:1;}
+.category-card:hover img{transform:none!important;}
+.story-image img{object-fit:contain;object-position:center;background:#fbe5ec;}
+@media(max-width:650px){.hero-art img{object-fit:contain;padding:4px}.category-card img{padding:8px 35% 8px 5px}.product-photo{padding:5px}.product-photo img{padding:2px}}
