@@ -16,3 +16,23 @@
 .category-card:hover img{transform:none!important;}
 .story-image img{object-fit:contain;object-position:center;background:#fbe5ec;}
 @media(max-width:650px){.hero-art img{object-fit:contain;padding:4px}.category-card img{padding:8px 35% 8px 5px}.product-photo{padding:5px}.product-photo img{padding:2px}}
+
+
+/* Clarity pass: keep middle-page imagery crisp and avoid stretching small source images. */
+.category-card img{image-rendering:auto;backface-visibility:hidden;}
+.product-photo img,.story-image img{image-rendering:auto;backface-visibility:hidden;}
+.story-image img{object-fit:cover;object-position:center;}
+@media(min-width:651px){.story-image img{height:320px;}}
+
+/* Product photo clarity and consistent framing */
+.product-photo{height:230px;background:#fbe3eb;}
+.product-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center;padding:0;filter:none;image-rendering:auto;}
+.product-card:hover .product-photo img{transform:scale(1.025)!important;}
+@media(max-width:650px){.product-photo{height:165px;padding:0!important}.product-photo img{padding:0!important;object-fit:cover;}}
+
+
+/* Final product gallery fix: show each unique product photo fully, without cutting edges. */
+.product-photo{height:230px;background:linear-gradient(145deg,#fff3f6,#f8dce5 55%,#fffaf8);padding:0;display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.product-photo img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;padding:0;transform:none!important;filter:none;image-rendering:auto;}
+.product-card:hover .product-photo img{transform:none!important;}
+@media(max-width:650px){.product-photo{height:165px;padding:0!important}.product-photo img{object-fit:contain;padding:0!important;}}
